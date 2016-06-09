@@ -8,8 +8,6 @@ class Cart( f: String) {
   
   var input = MutableList[String] ()
   
-  var in = List[String]()
- 
   val lines = Source.fromFile(f).getLines()
 
   def getProducts() : MutableList[ String] = {
